@@ -6,13 +6,30 @@ font = "sans serif"
 headless = true
 enableXsrfProtection = true
 maxUploadSize = 10
+enableCORS = false
+enableWebsocketCompression = true
+runOnSave = true
+fileWatcherType = "auto"
 
 [browser]
 gatherUsageStats = false
+serverAddress = "0.0.0.0"
 
 [runner]
 fastReruns = true
+magicEnabled = false
+installTracer = false
+fixMatplotlib = false
 
 [client]
 showErrorDetails = true
 toolbarMode = "minimal"
+
+[logger]
+level = "error"
+messageFormat = "%(message)s"
+
+[global]
+developmentMode = false
+disableWatchdogWarning = true
+showWarningOnDirectExecution = false
