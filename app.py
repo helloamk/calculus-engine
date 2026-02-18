@@ -36,22 +36,7 @@ st.markdown("""
 
 html,body,.stApp{background-color:var(--bg)!important;font-family:'Sora',sans-serif!important;color:var(--text-body)!important;}
 #MainMenu,footer,header{visibility:hidden;}
-/* ── Hide Streamlit watermark, deploy button & all branding ── */
-[data-testid="stToolbar"]{display:none!important;}
-[data-testid="stDecoration"]{display:none!important;}
-[data-testid="stStatusWidget"]{display:none!important;}
-[data-testid="stDeployButton"]{display:none!important;}
-.stDeployButton{display:none!important;}
-[data-testid="stBottom"]{display:none!important;}
-[data-testid="stBottomBlockContainer"]{display:none!important;}
-._profileContainer_gzau3_53{display:none!important;}
-._container_gzau3_1{display:none!important;}
-._profilePreview_gzau3_63{display:none!important;}
-div[class*="ProfileContainer"]{display:none!important;}
-div[class*="profileContainer"]{display:none!important;}
-section[data-testid="stFooter"]{display:none!important;}
-.reportview-container .main footer{display:none!important;}
-.block-container{padding:1.5rem 2.5rem 3rem!important;max-width:1400px!important;}
+
 
 /* ── Mobile ── */
 @media(max-width:768px){
