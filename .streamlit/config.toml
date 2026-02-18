@@ -1,8 +1,26 @@
+[theme]
+base = "auto"
+primaryColor = "#4f8ef7"
+backgroundColor = "#0f172a"
+secondaryBackgroundColor = "#1e293b"
+textColor = "#ffffff"
+font = "sans serif"
+
 [server]
-headless = false
+headless = true
 enableCORS = false
-port = 8501
+enableXsrfProtection = false
+maxUploadSize = 5
 
 [browser]
 gatherUsageStats = false
 serverAddress = "localhost"
+
+[runner]
+fastReruns = true
+enforceSerializableSessionState = false
+
+[client]
+showErrorDetails = false
+toolbarMode = "minimal"
+
