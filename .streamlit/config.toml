@@ -1,14 +1,8 @@
-[theme]
-base = "light"
-primaryColor = "#4f8ef7"
-backgroundColor = "#0b0f1a"
-secondaryBackgroundColor = "#111827"
-textColor = "#94a3b8"
-font = "sans serif"
-
 [server]
-headless = true
+headless = false
 enableCORS = false
+port = 8501
 
 [browser]
 gatherUsageStats = false
+serverAddress = "localhost"
