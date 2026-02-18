@@ -1,10 +1,9 @@
 [theme]
-base = "auto"
+base = "light"
 font = "sans serif"
 
 [server]
 headless = true
-enableCORS = false
 enableXsrfProtection = true
 maxUploadSize = 10
 
@@ -13,8 +12,7 @@ gatherUsageStats = false
 
 [runner]
 fastReruns = true
-enforceSerializableSessionState = false
 
 [client]
-showErrorDetails = false
+showErrorDetails = true
 toolbarMode = "minimal"
